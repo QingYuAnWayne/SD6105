@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import scipy
 
-Temp1 = pd.read_csv('./Temp_Week_1.csv')  # change to your directory
-Temp2 = pd.read_csv('./Temp_Week_2.csv')
+Temp1 = pd.read_csv('Temp_Week_1.csv')  # change to your directory
+Temp2 = pd.read_csv('Temp_Week_2.csv')
 print('\nTable read in\n',Temp1,'\n')
 print('\nTable read in\n',Temp2,'\n')
 

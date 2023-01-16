@@ -14,7 +14,7 @@ PlotWithPandas = True  # you can plot either with Pandas or Matplotlib
 #---------------------------------------------------------------------
 # Read in Daily Temperature datafile into dataframe Temp
 #---------------------------------------------------------------------
-Temp = pd.read_csv('./Daily_Temperature.csv')  # change to your directory
+Temp = pd.read_csv('Daily_Temperature.csv')  # change to your directory
 print('\nTable read in\n',Temp,'\n')
 
 #---------------------------------------------------------------------
